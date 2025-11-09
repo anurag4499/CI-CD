@@ -3,7 +3,7 @@ const express = require('express');
 
 
 const app= express();
-
+const port = process.env.PORT || 3000
 
 app.get('/',(req,res)=>{
     res.send("anurag");
@@ -22,7 +22,7 @@ app.get('/:id', (rq, rs)=>{
 
 // if(require.main===module){
 
-    app.listen(3000 , ()=> console.log(`server running on port ${3000}`));
+    app.listen(port , ()=> console.log(`server running on port ${port}`));
 // }
 
 
