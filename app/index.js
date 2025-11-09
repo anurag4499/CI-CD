@@ -25,10 +25,10 @@ app.get('/:id', (rq, rs)=>{
 
 })
 
-// if(require.main===module){
+if(require.main===module){
 
     app.listen(port , ()=> console.log(`server running on port ${port}`));
-// }
+}
 
 
 module.exports =app;

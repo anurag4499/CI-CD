@@ -2,8 +2,6 @@ const request = require('supertest');
 const  app = require('./index');
 
 
-
-
 describe("Express App", () => {
   it("GET / returns anurag mishra", async () => {
     const res = await request(app).get("/");
