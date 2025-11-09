@@ -1,0 +1,19 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "json-parser": "^3.1.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
