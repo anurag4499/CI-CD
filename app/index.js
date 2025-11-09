@@ -9,6 +9,11 @@ app.get('/',(req,res)=>{
     res.send("anurag");
 })
 
+
+app.get('/sir',(req,res)=>{
+    res.send("anurag mishra");
+})
+
 app.get('/:id', (rq, rs)=>{
     try{
       rs.send(`anurag ${rq.params.id}`)
