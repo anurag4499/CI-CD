@@ -16,7 +16,7 @@ app.get('/sir',(req,res)=>{
 
 app.get('/:id', (rq, rs)=>{
     try{
-      rs.send(`anurag ${rq.params.id}`)
+      rs.send(`anurag mishra ${rq.params.id}`)
     }catch(err){
         console.log('anurag error');
         
